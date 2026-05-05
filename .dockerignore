@@ -1,0 +1,8 @@
+app = "telegram-bot-lwvegw"
+primary_region = "cai"
+
+[build]
+  builder = "paketobuildpacks/builder:base"
+
+[processes]
+  app = "python main.py"
